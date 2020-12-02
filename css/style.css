@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-width: 1170px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+header{
+    background: #4EBEFE;
+    background: -webkit-linear-gradient(top left, #4EBEFE, #3790D9);
+    background: -moz-linear-gradient(top left, #4EBEFE, #3790D9);
+    background: linear-gradient(to bottom right, #4EBEFE, #3790D9);
+    padding: 100px;
+    padding-bottom: 145px;
+    color:#fff;
+}
+section{
+    padding: 105px 0 70px 0;
+}
+.section_two{
+    background: #ecf3f8;
+    padding: 105px 0 70px 0;
+}
+footer{
+    background: #164d7a;
+    color:#fff;
+    padding: 65px 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+h2{
+    /* почему-то не вместился размер 30px на 4 колонки, можно было задать авто-ширину колонки в бустрап, но не стал, сделал размер 29px */
+    font-size: 29px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+h3{
+    font-size: 19px;
+    margin-top: 30px;
+    line-height: 1em;
+}
+p{
+    line-height: 1.6em;
+}
+.img_logo{
+    margin-bottom:60px;
+}
+.dream{
+    width: 555px;
+}
+.title_dream{
+    font-family:"Ubntu", sans-serif ;
+    /* почему-то текст размером 37px не вмещается в строку, какую ширину я бы ей не задал */
+    font-size: 35px;
+    margin-bottom: 47px;
+}
+.title_dream span{
+    font-size: 59px;
+}
+.text_dream{
+    font-size: 16px;
+    margin-bottom: 45px;
+    width: 400px;
+}
+.btn, .btn_two{
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffd429;
+    border-radius: none;
+    border-style: none;
+    padding:25px 25px;
+}
+.values{
+    margin-bottom: 120px;
+}
+.input{
+    width: 340px;
+    font-family: "Ubuntu", sans-serif;
+    border:1px solid #bbbbbb;
+    padding: 17px 25px;
+    margin-bottom: 15px;
+}
+.btn_two{
+    width: 340px;
+    margin-bottom: 100px;
+}
+.values_all{
+    width: 320px;
+    margin: 0;
+    padding: 0;
+}
+.form_section{
+    text-align: center;
+}
+.text_footer{
+    text-align: center;
+}
+
+.hidden{
+    display: hidden;
+}
